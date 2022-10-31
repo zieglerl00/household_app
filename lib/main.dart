@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:household/MySquare.dart';
 import 'package:household/ShoppingList.dart';
 import 'package:household/constants.dart';
 
@@ -16,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
